@@ -71,12 +71,12 @@
 /* Section 1 */
 
 #hero {
-    background-color: #FB7C66;
+    background-color: #FF4727;
     height: 294px;
 }
 
 #hero h2 {
-    color: #FFFDD0;
+    color: #FFFDD8;
     font-size: 40px;
     grid-row: 1/2;
     grid-column: 3/11;
@@ -92,26 +92,160 @@
     padding-top: 135px;
     padding-left: 35px;
     font-family: 'Caveat', cursive;
+    color: #FFFDD8;
 }
 
 /* Section 2 */
 
 #team-bio {
-    background-color: #FFFDD0;
+    background-color: #FFFDD8;
     height: 1411px;
     margin-top: -39px;
 }
 
 #team-bio h2 {
-    color: #FB7C66;
+    color: #FF4727;
     font-size: 47px;
-    grid-column: 2/11;
+    
     padding-left: 6px;
-    font-family: 'Henny Penny', cursive;
+    font-family: 'Rampart One', cursive;
+    margin-left: 150px;
+    
 }
 
 #team-1 {
     width: 270px;
     grid-column: 2/4;
     border-radius: 40px;
+}
+
+#team1 h3 {
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    grid-column: 5/10;
+    color: #FF4727;
+    grid-row: 1/2;
+    font-weight: bold;
+}
+
+#title1 {
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+    grid-column: 5/10;
+    color: #FF4727;
+    grid-row: 1/2;
+    margin-top: 95px;
+} 
+
+#solidbox1 {
+    height: 160px;
+    /* height: 362px; */
+    width: 770px;
+    grid-column: 4/12;
+    background-color: #1C2D3B;
+    grid-row: 1/2;
+    border-radius: 20px;
+    /* border-top-right-radius: 20px; */
+}
+
+/* #solidbox {
+    height: 202px;
+    /* height: 362px; */
+    /* width: 790px; */
+    /* grid-column: 4/12; */
+    /* background-color: #1C2D3B;
+    grid-row: 1/2;
+    border-radius: 20px;
+} */ 
+
+
+#caption1 {
+    grid-column: 4/12;
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    color: white;
+    grid-row: 1/2;
+    margin-top: 135px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #1C2D3B;
+    /* border-radius: 20px; */
+    padding-left: 81px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+}
+
+#team-1:hover {
+    box-shadow: 0 0 20px #000000f8;
+    cursor: pointer;
+}
+
+#team1 h3:hover {
+    color: #FFFDD8;
+    cursor: pointer;
+}
+
+/* Team No. 2 */
+
+#team2 {
+    margin-top: 70px;
+}
+
+#team-2 {
+    width: 270px;
+    grid-column: 9/12;
+    border-radius: 40px;
+    grid-row: 1/2;
+}
+
+#team2 h3 {
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    grid-column: 5/9;
+    color: #FF4727;
+    grid-row: 1/2;
+    font-weight: bold;
+    text-align: right;
+}
+
+#title2 {
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+    grid-column: 3/9;
+    color: #FF4727;
+    grid-row: 1/2;
+    margin-top: 95px;
+    text-align: right;
+} 
+
+#solidbox2 {
+    /* height: 160px; */
+    height: 362px;
+    width: 790px;
+    grid-column: 2/9;
+    background-color: #1C2D3B;
+    grid-row: 1/2;
+    border-radius: 20px;
+}
+
+#caption2 {
+    grid-column: 2/9;
+    margin-left: 45px;
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    color: white;
+    grid-row: 1/2;
+    margin-top: 135px;
+    text-align: right;
+}
+
+#team-2:hover {
+    box-shadow: 0 0 20px #000000f8;
+    cursor: pointer;
+}
+
+#team2 h3:hover {
+    color: #FFFDD8;
+    cursor: pointer;
 }
