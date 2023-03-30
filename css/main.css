@@ -124,14 +124,18 @@
     grid-column: 3/5;
     border-radius: 40px;
     margin-right: 150px;
-    border: 3px solid #FF4727;
+    
+    border-style: outset;
+    border-color: #FF4727;
 }
 
 #team-2 {
   margin-left: 85px;
   grid-column: 6/9;
   border-radius: 40px;
-  border: 3px solid #FF4727;
+  
+  border-style: outset;
+  border-color: #FF4727;
 }
 
 
